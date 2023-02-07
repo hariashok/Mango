@@ -19,4 +19,9 @@ public class TempController {
         System.out.println("Hi Chennai");
         return "Hi da";
     }
+    
+    @GetMapping("/name")
+    public String getName(){
+        return System.out.print("my name is hari");
+    }
 }
