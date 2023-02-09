@@ -26,4 +26,9 @@ public class TempController {
          System.out.println("secondary to master--------");
          return "---";
     }
+    
+    public String newOne(){
+        System.out.println("First change plan to move secondary branch");
+        return "";
+    }
 }
