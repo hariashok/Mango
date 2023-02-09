@@ -22,6 +22,6 @@ public class TempController {
     
     @GetMapping("/name")
     public String getName(){
-        return ("my name is hari");
+        return ("my name is hari--------");
     }
 }
