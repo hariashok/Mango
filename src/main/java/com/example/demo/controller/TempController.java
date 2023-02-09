@@ -24,6 +24,6 @@ public class TempController {
     public String getName(){
          System.out.println("my name is hari--------");
          System.out.println("secondary to master--------");
-         return "";
+         return "---";
     }
 }
